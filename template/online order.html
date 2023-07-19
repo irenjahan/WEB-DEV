@@ -1,0 +1,109 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+   
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="/images/logo.jpg" alt="avatar logo" style="width: 60px; height:30px" class="rounded-fill">
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reservation.html">Reservations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about us.html">About US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+           
+
+        </ul>
+        <a href="online order.html" class="btn btn-brand">Order online</a>
+    </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="mt-5">Food Ordering</h1>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" class="form-control" id="phone" placeholder="Enter your phone number">
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <textarea class="form-control" id="address" rows="3" placeholder="Enter your address"></textarea>
+          </div>
+    <p>For selecting multiple items press ctrl or windows key</h4>
+    <label for="food">choose the dishes</label>
+   <select name="food" id="food" multiple>
+    <option>poached egg with french toast</option>
+    <option>Roti with subji</option>
+    <option>Extra Buttery Alo parata with curd and mint</option>
+    <option>Chicken Biryani</option>
+    <option>chicekn stew with herbs</option>
+    <option>Chicken Curry</option>
+    <option>smoked grilled fish</option>
+    <option>combo 1 with rice ,lentle and veggies</option>
+    <option>Grilled chicken</option>
+   </select><br>
+   <p>For selecting multiple items press ctrl or windows key</p>
+<div class="form-group">
+    <label for="quantity">Quantity</label>
+    <input type="number" class="form-control" id="quantity" min="1" max="10" value="1">
+  </div>
+  <button type="submit" class="btn btn-primary">Place Order</button>
+</form>
+<footer class="footer bg-light">
+<div class="container my-4">
+  <div class="row">
+    <div class="col-md-4">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at augue risus.</p>
+    </div>
+    <div class="col-md-4">
+      <h4>Contact Information</h4>
+      <p>123 Main Street, City, State</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>Email: info@example.com</p>
+    </div>
+    <div class="col-md-4">
+      <h4>Follow Us</h4>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#"><i class="ri-facebook-fill"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="ri-twitter-fill"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="ri-instagram-fill"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <p class="text-center">© 2023 Restaurant Name. All rights reserved.</p>
+</div>
+</footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+  </html>
