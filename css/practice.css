@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+.section{
+    margin:10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  #text{
+   
+    text-align: center;
+  }
+  
+  .banner-delivery{
+    width:500px;
+    height: 100vh;
+  }
+  h2{
+    color:coral;
+  }
+  .button{
+    text-align: center;
+  }
+  .btn{
+    border: 0;
+    padding:12px 38px;
+  
+  
+  }
+  .btn-brand{
+    color:black;
+    font-weight: 400;
+    background-color: orange;
+  }
+  
+  
+  .img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 60%;
+  
+  }
+
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    color:black;
+
+}
+.heading span{
+    background-color: coral;
+    color:white;
+    display: inline-block;
+    padding:.5rem 3rem;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
+.products .product-slider{
+    border:0px solid;
+    padding: 1rem; 
+
+}
+.products .product-slider:first-child
+{
+    margin-bottom: 2rem;
+}
+.products .product-slider .box
+{
+    border:0px solid red;
+    background: white;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline-color: aquamarine;
+    box-shadow: beige;
+    transition: .2s linear;
+}
+.products .product-slider .box:hover{
+box-shadow: 1px 1px 10px 4px coral;
+}
+.products .product-slider .box img{
+    height: 10rem;
+    width:1orem;
+    border-radius: 50%;
+}
+.products .product-slider .box p{
+ text-align: center;
+ justify-content: center;
+}
+.products .product-slider .box h1{
+font-size: 2.5rem;
+color:black;
+}
+.products .product-slider .box .price{
+    font-size:2rem;
+    color: blanchedalmond;
+    padding:.5rem 0;
+}
+.products .product-slider .box .stars i{
+    font-size:1.7rem;
+    color:orange;
+    padding:.5rem ;
+
+}
